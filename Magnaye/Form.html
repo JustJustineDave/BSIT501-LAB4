@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <title>Curriculum Vitae</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body style="background-color: #A8D0E6">
+<br>
+<div class = "GrdMain">
+    <div class = "CContainer" style = "background-color: #24305E;">
+            <br>
+            <div><center><img src="ProfileIcon.png" class="pc2" id="pc" alt = "ProfilePicture"></center></div>
+            <br>
+            <input type="file">
+            <br>
+        <fieldset>
+            <legend><h3 class = "boxmodel">Personal Information</h3></legend>
+            <label id="textcolor">Name:</label><br>
+             <input type="text" name="fname" placeholder="First Name"/>
+            <input type="text" name="lname" placeholder="Last Name"/>
+            <input type="text" name="minitial" placeholder="Middle Initial"/><br><br>
+            <label id="textcolor">Age: </label>
+			<select name="choices">
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option>
+			    <option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+			</select><br>
+            <label id="textcolor">Birthdate:</label>
+			    <input type="date" name="date" /><br>
+            <label id="textcolor">Birth Place: </label>
+			    <input type="text" name="Birthplace" placeholder="Birth Place"/><br><br>
+            <label id="textcolor">Gender: </label>
+                <form id="textcolor" action="">
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </form>
+            <label id="textcolor"><img  src = "AIcon.png" id="icon">Address: </label><br>
+                <input type="text" name="Padress" placeholder="Barangay"/>
+                <input type="text" name="Barang" placeholder="Province"/>
+                <input type="text" name="Padress" placeholder="City"/>
+                <input type="text" name="Padress" placeholder="ZipCode"/>
+            <br><br>
+            <label id="textcolor">Religion: </label><br>
+                <input type="text" name="PReligion" placeholder="Religion"/><br>
+            <label id="textcolor">Nationality: </label><br>
+                <input type="text" name="PNationality" placeholder="Nationality"/><br><br>
+            <label id="textcolor">Language: </label> 
+                <select name="choices">
+                    <option>English</option>
+                    <option>Tagalog</option>
+                    <option>Korean</option>
+                    <option>Japanese</option>
+                </select>
+            <br><br>
+            <label id="textcolor"><img  src = "EIcon.png" id="icon">Email Adress: </label>
+		    <input type="text" name="emailaddress" placeholder="Email Address"/><br>
+        
+            <label id="textcolor"><img  src = "TIcon.png" id="icon">Telephone Number: </label>
+		    <input type="text" name="Ptelnumber" placeholder="Telephone Number"/>
+            <br><br>
+        </fieldset>
+    </div>
+    <div>
+        <div class="CContainer" id="border" style="background-color: #374785; width: 46em;">
+            <h1 id="centertext">Resume</h1>
+            <div class = "EducationalAtt">
+                <h2 class="boxmodel">Educational Attainment</h2>
+                <label id="textcolor">Junior HighSchool: </label><br>
+                    <input type="text" name="JHS" id="longbox" placeholder="Name of Junior HighSchool"/><br>
+                <input type="text" name="GradYear" placeholder="Year Graduated"/>
+                <br><br>
+                <label id="textcolor">Senior HighSchool: </label>
+                    <input type="text" name="SHS" id="longbox" placeholder="Name of Senior HighSchool"/><br>
+                <label id="textcolor">Strand: </label>
+                    <select name="choices">
+                        <option>STEM</option><option>HUMMS</option><option>ABM</option>
+                    </select>
+                <br>
+                <input type="text" name="GradYear" placeholder="Year Graduated"/>
+                <br><br>
+                <label id="textcolor">College: </label><br>
+                    <input type="text" name="COLLEGE" id="longbox" placeholder="Name of College"/><br>
+                <label id="textcolor">Course: </label>
+                    <select name="choices">
+                        <option value="BSIT">Bachelor of Science in Information Technology</option>
+                        <option value="BSECE">Bachelor of Science in Electronic Engineering</option>
+                        <option value="BSA">Bachelor of Science in Accounting</option>
+                        <option value="BSTM">Bachelor of Science in Tourism Management</option>
+                        <option value="BSHM">Bachelor of Science in Hospitality Management</option>
+                        <option value="BIT">Bachelor of Science in Industrial Technology</option>
+                        <option value="BSMM">Bachelor of Science in Marketing Management</option>
+                    </select>
+                <br>
+                <input type="text" name="GradYear" placeholder="Year Graduated"/>
+                <br><br>
+            </div>
+            <div class = "FatherInfo">
+                <h3 class="boxmodel">Father's Information</h3>
+                <label id="textcolor">Father's Name: </label><br>
+		            <input type="text" name="fatherfname" placeholder="First Name"/>
+                    <input type="text" name="fatherlname" placeholder="Last Name"/>
+                    <input type="text" name="fatherminitial" placeholder="Middle"/>
+                 <br><br>
+                 <label id="textcolor">Occupation: </label><br>
+                     <input type="text" name="fatheroccupation" placeholder="Occupation"/>
+            </div>
+            <br>
+            <div class = "MotherInfo">
+                <h3 class="boxmodel">Mother's Information</h3>
+                <label id="textcolor">Mother's Maiden Name: </label><br>
+		            <input type="text" name="fatherfname" placeholder="First Name"/>
+                    <input type="text" name="fatherlname" placeholder="Last Name"/>
+                    <input type="text" name="fatherminitial" placeholder="Middle"/>
+                 <br><br>
+                 <label id="textcolor">Occupation: </label><br>
+                     <input type="text" name="fatheroccupation" placeholder="Occupation"/>
+            </div>
+            <br>
+            <div class="OtherInfo">
+                <h3 class="boxmodel">Other Informations</h3>
+                <label id="textcolor">Skills: </label><br>
+                    <input type="text" name="Skills" id="longbox" placeholder="Your Skills"/>
+                <br><br>
+                <label id="textcolor">Hobbies: </label><br>
+                    <input type="text" name="Hobbies" id="longbox" placeholder="Your Hobbies"/>
+                <br>
+                <button id="textcolor">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!--colors:
+#EDC7B7
+#EEE2DC
+#AC3B61
+#123C69-->
+
+<!--colors:
+#F8E9A1
+#A8D0E6
+#24305E-->

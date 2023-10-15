@@ -1,0 +1,41 @@
+.forms{
+	font-family: Times New Roman;
+	font-size: 15px;
+	text-align: left; 
+}
+
+img{
+	size: 2x2;
+	width: 150px;
+}
+
+body{
+	background-color: powerblue
+}
+.center {
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%; 
+} 
+
+.button {
+  padding: 13px 20px;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {background-color: DodgerBlue}
+
+.button:active {
+  background-color: red;
+  transform: translateY(4px);
+}
+
+  

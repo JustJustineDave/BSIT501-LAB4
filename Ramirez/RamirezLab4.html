@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title> APPLICANT INFORMATION </title>
+        <link rel="stylesheet" type="text/css" href="RamirezLab4.css">
+    </head>
+    <body style="background-color: rgb(104, 180, 110);">
+        <h1> Hi Applicant!</h1>
+        <h2> Kindly input your information below.</h2>
+        <hr>
+        <div class="parentDiv">
+            <img src="blankprofile.jpg" alt="blank profile">
+        </div>
+        
+        <div class="text-center">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            
+        </div>
+
+        <div class="Label1">
+            <label for="GivenName">Given Name:</label><br>    
+            <input type="text" id="GivenName" name="GivenName" placeholder="First Name">
+        </div>
+        <div class="Label2">
+            <label for="MiddleName">Middle Name:</label><br>    
+            <input type="text" id="MiddleName" name="MiddleName" placeholder="Middle Name">
+        </div>
+        <div class="Label3">
+            <label for="LastName">Last Name:</label><br>   
+            <input type="text" id="LastName" name="LastName" placeholder="Last Name">
+        </div>
+        <div class="opts1">
+            <label for="gender">Gender:</label><br>
+
+                <select id="gends" >
+                    <option value="pls">Please select an option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                    <option value="xxx">Rather not say</option>
+                </select><br>
+        </div>
+        <div class="spec">
+            <label for="spec">if others, please specify</label><br>   
+            <input type="text" id="spec" name="spec" placeholder="specify your gender">
+        </div>
+        <div class="Label4">
+            <label for="EmailAddress">Email Address:</label><br>    
+            <input type="text" id="EmailAddress" name="EmailAddress" placeholder="Email  Address" size="30">
+        </div>
+
+        <div class="Label5">
+            <label for="ContactNumber">Contact Number:</label><br>    
+            <input type="text" id="ContactNumber" name="ContactNumber" placeholder="Contact  Number">
+        </div>
+
+        <div class="Label6">
+            <label for="HomeAddress">Home Address:</label><br>    
+            <input type="text" id="HomeAddress" name="HomeAddress" placeholder="Home  Address">
+        </div>
+
+        <div class="TextArea1">
+            <label for="yourself">Tell us about yourself:</label><br>    
+            <textarea id="freeform" name="freeform" rows="4" cols="50"> </textarea>
+        </div>
+
+        <div class="TextArea2">
+            <label for="skills">What are your key skills?:</label><br>    
+            <textarea id="freeform" name="freeform" rows="4" cols="50"> </textarea>
+        </div>
+
+        <div class="TextArea3">
+            <label for="exp">Do you have any work experience?:</label><br>    
+            <textarea id="freeform" name="freeform" rows="4" cols="50"> </textarea>
+        </div>
+
+        <div class="Label7">
+            <label for="Education">Education History:</label><br>    
+            <input type="text" id="Elementary" name="Elementary" placeholder="Elementary School">
+            <input type="text" id="Year1" name="Year1" placeholder="Year graduated"><br>
+            <input type="text" id="Secondary" name="Secondary" placeholder="Junior Highschool">
+            <input type="text" id="Year2" name="Year2" placeholder="Year graduated"><br>
+            <input type="text" id="Secondary1" name="Secondary1" placeholder="Senior Highschool">
+            <input type="text" id="Year3" name="Year3" placeholder="Year graduated"><br>
+            <input type="text" id="Secondary1" name="Secondary1" placeholder="Senior Highschool">
+            <input type="text" id="Year3" name="Year3" placeholder="Year graduated"><br>
+            <input type="text" id="Tertiary" name="Tertiary" placeholder="College">
+            <input type="text" id="Year4" name="Year4" placeholder="Year graduated"><br>
+        </div>
+
+        <div class="TextArea4">
+            <label for="exp">Do you have any hobbies?:</label><br>    
+            <textarea id="freeform" name="freeform" rows="4" cols="50"> </textarea>
+        </div>
+
+        <div class="Label8">
+            <label for="Reference">References:</label><br>    
+            <input type="text" id="Ref1" name="Ref1" placeholder="Reference 1">
+            <input type="text" id="ConNum" name="ConNum" placeholder="Contact  Number"><br>
+            <input type="text" id="Ref2" name="Ref2" placeholder="Reference 2">
+            <input type="text" id="ConNum1" name="ConNum1" placeholder="Contact  Number"><br>
+            <input type="text" id="Ref3" name="Ref3" placeholder="Reference 3">
+            <input type="text" id="ConNum2" name="ConNum2" placeholder="Contact  Number"><br>
+        
+        </div>
+
+        <div class="submitbut">
+            <input type="submit" value="Submit">
+        </div>
+
+
+    </body>
+</html>

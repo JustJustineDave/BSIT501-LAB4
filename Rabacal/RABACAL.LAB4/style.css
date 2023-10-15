@@ -1,0 +1,36 @@
+body{
+	background-color:AliceBlue;
+	font-family:"Times New Roman";
+}
+h2{
+	color:SlateBlue;
+	text-align:center;
+	text-decoration: underline;
+	text-decoration-color: Black;
+	text-shadow: 2px 2px 5px RoyalBlue;
+}
+h3{
+	color:SlateBlue;
+	text-decoration: underline;
+	text-decoration-color:Black;
+	text-shadow: 2px 2px 5px RoyalBlue;
+}
+p{
+	color:SteelBlue;
+
+}
+form{
+	color:SteelBlue;
+}
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 50%;
+}
+img{
+	float:none;
+	width:150px;
+	margin:10px;
+}
+

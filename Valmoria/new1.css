@@ -1,0 +1,89 @@
+/* CSS DOCUMENT */
+
+body {
+  background-color: lightblue;
+}
+h2{
+	color:navy blue;
+	text-align: center;
+	font-size: 2.5em;
+	font-family:"Times New Roman", Times, serif;
+	background-color: lightblue;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+legend{
+	color:navy blue;
+	text-align: left;
+	font-size: 2.2em;
+	font-family:"Times New Roman", Times, serif;
+	background-color: lightblue;
+}
+img {
+  float: none;
+  width: 150px;
+  margin: 10px;
+}
+p{
+	color:navy blue;
+	text-align: left;
+	font-size: 1.2em;
+	font-family:"Times New Roman", Times, serif;
+	background-color: lightblue;
+}
+form{
+	padding: 15px;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=zip], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+

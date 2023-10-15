@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+button {
+    background-color: #123C69;
+}
+.CContainer {
+    display: flex;
+    flex-direction: column;
+}
+.RContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #379683;
+    height: 5em;
+}
+.GrdMain {
+    display: grid;
+    gap: 0px;
+    padding: 0px 10%;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: auto-fill;
+}
+.boxmodel {
+    color: #EEE2DC;
+    padding: 0px;
+    margin: 0px;
+    background-color: #123C69;
+}
+.pc2 {
+    width: 5em;
+}
+#border {
+    border: 8px solid #123C69 ;
+}
+#icon {
+    width: 1.4em;
+    height: 1.4em;
+}
+#textcolor {
+    color: white;
+}
+#centertext {
+    text-align: center;
+    color: white;
+}
+#longbox {
+    width: 50em;
+}
+#pc:hover{
+    width: 6em;
+}
+input, select, option{
+    background-color: white;
+}
+input:hover{
+    border: 0.15em solid #79b3f2;
+}
+button:hover{
+    border: 0.15em solid #EEE2DC;
+}
+

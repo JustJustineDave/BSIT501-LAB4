@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css"/>
+	
+    <title>My Resume</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+		<form action="submit.php" method="post">
+        <div class="section">
+            <h2>Personal Information</h2>
+			<hr>
+            <p>
+               
+			   <label for="name">Last name:</label><br>
+                <input type="text" id="name" name="name" required>
+				
+            </p>
+			<p>
+                <label for="name">First name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+			<p>
+                <label for="name">Middle initial:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+			
+            <p>
+                <label for="address">Address:</label><br>
+                 <input type="text" id="address" name="address" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"/>
+            </p>
+			<p>
+				<label for="gender"> Gender:</label><br>
+				  <input type="radio" id="gender" name="gender" value="Male">
+  						<label for="html">Male</label><br>
+ 				<input type="radio" id="gender" name="gender" value="Female">
+  						<label for="css">Female</label><br><br>
+
+		<form action="/action_page.php">
+			<label for="datemax">Birthday:</label><br><br>
+			<input type="date" id="datemax" name="datemax" max="2023-12-31" required><br><br>
+		</form>
+		
+        </div>
+
+        <div class="section2">
+            <h2>Education</h2>
+			<hr>
+            <p>	
+			<h3> College </h3>
+                <label for="edu1">Degree:</label><br>
+                <input type="text" id="Dedu1" name="edu1" required>
+            </p>
+            <p>
+                <label for="edu1">School:</label><br>
+                <input type="text" id="edu1" name="edu1" required>
+            </p>
+            <p>
+                <label for="edu1">Year:</label><br>
+               <input type="text" id="edu1" name="	edu1" required>
+            </p>
+        </div>
+
+        <div class="section3">
+            <h2>Skills</h2>
+			<hr>
+			<br>
+			<ul>
+				<li><input type="text" id="skill" name="skill" required></li> <br>
+				<li><input type="text" id="skill" name="skill" required></li> <br>
+				<li><input type="text" id="skill" name="skill" required></li> <br>
+			</ul>  
+			
+			<input type="submit" value="Register">
+
+        </div>
+    </div>
+</body>
+</html>

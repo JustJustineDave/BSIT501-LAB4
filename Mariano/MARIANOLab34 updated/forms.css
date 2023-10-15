@@ -1,0 +1,40 @@
+h1{
+	font-family: Hoefler text;
+	font-size: 40px;
+	color: blue
+}
+body{
+	background-color:lightblue
+}
+figure{
+	border: 1pt solid #A8A8A8;
+	background-color: #808080;
+	margin: 5px;
+	padding: 5px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.MyFormt{
+	background-color:violet;
+	font-family:Times New Roman;
+	font-size:15px;
+	font-weight:bold;
+}
+.firstie{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+meta{
+	@media	only screen and (max-width:480px)
+	@media	only screen and (max-width:481px)
+	@media	only screen and (max-width:769px)
+}
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}

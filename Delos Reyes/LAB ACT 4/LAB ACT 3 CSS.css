@@ -1,0 +1,57 @@
+html
+h1 {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	margin-left: 600px;
+	margin-right: 600px;
+	padding: 20px;
+	border-color: skyblue;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px #6495ED;
+	font-family: times new roman;
+}
+h2 {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	margin-left: 600px;
+	margin-right: 600px;
+	padding: 20px;
+	border-color: skyblue;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px #6495ED;
+	font-family: arial;
+	font-size: 100%;
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+.center {
+	display: flex;
+	margin: auto;
+	padding: auto;
+}
+p, legend {
+	text-align: center;
+	font-family: cambria;
+}
+fieldset {
+	border-style: solid;
+	margin-bottom: 20px;
+	margin-left: 600px;
+	margin-right: 600px;
+	padding: 20px;
+	border-color: skyblue;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px #6495ED;
+	background-color: white;
+}
+legend {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 100%;
+}

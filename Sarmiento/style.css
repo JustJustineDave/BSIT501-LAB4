@@ -1,0 +1,28 @@
+		
+		body {
+			font-family: Arial, sans-serif;
+			background-color: beige;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        h1 {
+        background-color: #666;
+		padding: 30px;
+		text-align: center;
+		font-size: 35px;
+		color: white;		
+        }
+		h2 {
+		border-style: solid;
+		text-align: center;
+		}
+        .section {
+            margin-bottom: 20px;
+			text-align: left;	
+        }	
+        label {
+            font-weight: bold;
+        }
+		

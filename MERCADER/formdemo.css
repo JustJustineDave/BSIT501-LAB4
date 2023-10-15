@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+	display: flex;
+	height:120vh;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	padding: 10px
+}
+
+.personal{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: 'Poppins',sans-serif;
+}
+.container{
+	max-width: 1000px;
+	width: 50%;
+	background: skyblue;
+		color: black;
+	border-radius: 5px;
+	padding:25px 30px; 
+
+}
+
+.container form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0 12px 0;
+}
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+	
+}
+.user-details .input-box .details{
+	display: block;
+	font-weight: 50;
+	margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+height: 45px;
+width: 100%;	
+outline: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding-left: 15px;
+font-size: 13px;
+}
+
+form .gender-details .gender-title{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .gender-details .category{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0;
+}
+.gender-details .category label{
+	display: flex;
+	align-items: center;
+}
+.gender-details .category .dot{
+	height: 10px;
+	width: 10px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	border: 5px solid transparent;
+	transition: all 0.3s ease
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+	 border-color: #d9d9d9;
+	 background: #9b59b6;
+ }
+ form input[type="radio"]{
+	 display: none;
+ }
+
+ .profile-img img{
+	width: 20%;
+	border-radius: 0;
+	position:relative;
+	float: right;
+	overflow: hidden;
+ }
+ 
+ table, th, td{
+	 border: 1px solid;
+	 font-size: 15px;
+ }
+ 
+ ul{
+	 list-style-type:square;
+	font-size: 20px;
+ }
+ .signature{
+	 margin-left: 440px
+ }
