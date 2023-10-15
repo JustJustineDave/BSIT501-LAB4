@@ -1,0 +1,64 @@
+body {
+	background-color: #CCC8AA;
+	margin: 50px;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+}
+form {
+	background-color: #7D7C7C;
+	padding: 25px;
+	border-radius: 10px;
+}
+img {
+	width: 192px;
+	height: 192px;
+}
+#personal, #educational {
+	font-size: 20px;
+	font-style: strong;
+}
+#name {
+	font-size: 24px;
+}
+#edit, select {
+	border-radius: 5px;
+	border: none;
+	font-family: times new roman;
+}
+
+.name2 {
+	height: 24px;
+	font-size: 24px;
+}
+
+/*flexbox*/
+.column {
+	display: flex;
+	align-items: flex-start;
+}
+.column-left {
+	margin-right: 1em;
+	padding: 20x;
+	color: white;
+}
+
+.column-right {
+	background-color: #F1EFEF;
+	padding: 20px;
+	border-radius:10px;
+}
+
+.submit {
+	float: right;
+}
+.submit:hover {
+	background-color: white;
+	color: green;
+}
+
+.reset:hover {
+	background-color: white;
+	color: red;
+}
